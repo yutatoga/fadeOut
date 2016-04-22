@@ -1,7 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-
+#include "ofxGui.h"
+#include "ofxXmlSettings.h"
 #define DRAW_STYLE_NUMBER 3;
 
 class ofApp : public ofBaseApp{
@@ -22,9 +23,11 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		
+
     ofPoint pos;
     int currentDrawStyleId;
     ofFbo fbo;
     ofStyle defaultStyle;
+    ofxPanel gui;
+    ofParameter<ofColor> guiColor;
 };
