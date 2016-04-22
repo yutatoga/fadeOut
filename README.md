@@ -1,4 +1,8 @@
 # fadeOut
+- MacOS: 10.11.3（15D21）
+- Xcode: Version 7.3 (7D175)
+- openFrameworks: of_v0.9.3_osx_release
+
 [Left gray trail in ofEnableBlendMode (OF_BLENDMODE_ALPHA) | alpha trail , alpha blending, Mac, openFrameworks](https://forum.openframeworks.cc/t/left-gray-trail-in-ofenableblendmode-of-blendmode-alpha-alpha-trail-alpha-blending-mac-openframeworks/17702)  
 This program check the three ways to refresh background  
 
